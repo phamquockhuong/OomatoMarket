@@ -1,0 +1,5 @@
+ALTER TABLE products
+ADD FOREIGN KEY (id_cate) REFERENCES categories(id_cate);
+
+id
+
